@@ -1,5 +1,8 @@
+<div class="card">
+  <div class="card-body">Basic card</div>
+</div>
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<html lang="en">
 <head>
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
@@ -10,15 +13,27 @@
 <body>
 
 <div class="container mt-3">
-  <h1>My Page</h1>
-  <p>Lorem ipsum text.</p>
-  <div class="card">
-    <div class="card-body">A card.</div>
+  <h2>Card Image</h2>
+  <p>Image at the top (card-img-top):</p>
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="../bootstrap4/img_avatar1.png" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
   </div>
-  <p>Some buttons:</p>
-  <button type="button" class="btn btn-primary">Primary</button>
-  <button type="button" class="btn btn-secondary">Secondary</button>
-  <button type="button" class="btn btn-success">Success</button>
+  <br>
+  
+  <p>Image at the bottom (card-img-bottom):</p>
+  <div class="card" style="width:400px">
+    <div class="card-body">
+      <h4 class="card-title">Jane Doe</h4>
+      <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+    <img class="card-img-bottom" src="../bootstrap4/img_avatar6.png" alt="Card image" style="width:100%">
+  </div>
 </div>
 
 </body>
